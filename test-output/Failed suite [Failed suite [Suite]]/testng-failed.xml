@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Failed suite [Suite]]]">
+  <listeners>
+    <listener class-name="com.paratest.listeners.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)(failed)(failed)">
+    <classes>
+      <class name="com.paratest.testcases.SignUpTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="captureScreen"/>
+          <include name="fillSignUp" invocation-numbers="1 2"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.paratest.testcases.SignUpTest -->
+    </classes>
+  </test> <!-- Test(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [Suite]]] -->
